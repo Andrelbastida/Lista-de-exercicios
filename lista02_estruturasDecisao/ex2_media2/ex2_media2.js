@@ -19,6 +19,27 @@ function calcularValorMedia(){
     }else{
         document.getElementById('result').innerHTML= calculo + " Reprovado"
     }
-
-
 }
+
+// PODENDO ESCREVER ESSA FUNÇÃO DE OUTRA MANEIRA :
+/*
+function calcularMedia(){
+
+    var n1 = Number(document.getElementById('n1').value)
+    var n2 = Number(document.getElementById('n2').value)
+    var resultado 
+
+    var calculo = ( n1 + n2 ) / 2
+
+    if (calculo >= 6){
+        resultado = calculo + "-" + "Aprovado"
+        
+    } else if(calculo >=5){
+         resultado = calculo + "-" + "Recuperação"
+    }else{
+         resultado = calculo + "-" + "Reprovado"
+         
+document.getElementById("result").innerText= resultado
+    
+}
+*/
