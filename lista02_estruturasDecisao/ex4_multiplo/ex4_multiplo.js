@@ -7,8 +7,14 @@ function calcule(){
 
     let n1 = Number(document.getElementById('n1').value)
     let n2 = Number(document.getElementById('n2').value)
-    let resultado = (n1 > n2) ? n1 +" eh maior que "+ n2 : (n2 > n1) ?  n2 + " eh maior que " + n1 : n1 + " e " + n2 + " são iguais "
 
-    document.getElementById("result").innerHTML= resultado
+
+    var resultado
+    if (n1 % n2 == 0){
+        resultado = "N1 é Multiplo de N2"
+    } else {
+        resultado = "N1 não é Multiplo de N2"
+    }
+document.getElementById("result").innerHTML= resultado
 
 }
