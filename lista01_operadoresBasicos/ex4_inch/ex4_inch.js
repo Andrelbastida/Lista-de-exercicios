@@ -8,6 +8,6 @@ function calcularPolegada(){
     let polegada = milimetros / 25.4 
 
     let result = document.getElementById("result")
-    result.innerText = polegada
+    result.innerHTML = polegada
 
 }

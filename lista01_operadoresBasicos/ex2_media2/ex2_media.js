@@ -8,8 +8,13 @@ let n2 = Number(document.getElementById("n2").value)
 
 let media = (n1+(n2*2))/3
 
-let result = document.getElementById("result")
-result.innerText = media
+// variavel = (condição) ? verdadeiro : falso       : 
+    media =(media > 10) ? 10 : media  /* -----------
+variavel = é maior que 10 ?  se SIM escrever "10" : se NÃO escrever "media" 
+*/
+
+    let result = document.getElementById("result")
+    result.innerHTML = media
 
 // esta "let" Também pode ser escrita como :
 //    document.getElementById("result").innerText = media 
