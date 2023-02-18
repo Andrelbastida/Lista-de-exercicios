@@ -16,6 +16,7 @@ function calcule(){
         cont ++
     }
     
+    // ...
 
 document.getElementById("result").innerHTML= resultado
 
